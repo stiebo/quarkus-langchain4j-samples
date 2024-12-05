@@ -4,9 +4,6 @@ import io.quarkiverse.langchain4j.RegisterAiService;
 import dev.langchain4j.service.SystemMessage;
 import dev.langchain4j.service.UserMessage;
 
-import java.util.List;
-
-
 @RegisterAiService
 public interface AiService {
 
