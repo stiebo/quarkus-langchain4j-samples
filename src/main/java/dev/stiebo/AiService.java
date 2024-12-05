@@ -7,7 +7,7 @@ import dev.langchain4j.service.UserMessage;
 @RegisterAiService
 public interface AiService {
 
-    @UserMessage("Tell me a joke")
+    @UserMessage("Tell me a dad joke")
     String getJoke();
 
     @SystemMessage("You are a poet")
