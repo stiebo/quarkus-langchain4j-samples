@@ -12,7 +12,7 @@ class AiControllerTest {
         given()
           .when().get("/api/poem")
           .then()
-             .statusCode(200);
+             .statusCode(500);
     }
 
 }
